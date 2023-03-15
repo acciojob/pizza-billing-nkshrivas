@@ -7,7 +7,7 @@ public class Pizza {
     private String bill;
     private Boolean isExtraCheese=false;
     private Boolean isTopping=false;
-    private boolean wasTakeaway=false;
+    private Boolean wasTakeaway=false;
 
 
 
@@ -69,7 +69,7 @@ public class Pizza {
 
     public String getBill(){
         // your code goes here
-        bill+="Total Price: "+price;
+        bill+="Total Price: "+price+"\n";
         return this.bill;
     }
 }
