@@ -16,12 +16,12 @@ public class Pizza {
         // your code goes here
         if(isVeg){
             price=300;
-            bill="Base Price Of The Pizza: 300 \n";
+            bill="Base Price Of The Pizza: 300\n";
 
         }
         else{
             price=400;
-            bill="Base Price Of The Pizza: 400 \n";
+            bill="Base Price Of The Pizza: 400\n";
         }
     }
 
@@ -36,7 +36,7 @@ public class Pizza {
 
         price+=80;
         isExtraCheese=true;
-        bill+="Extra Cheese Added: 80 \n";
+        bill+="Extra Cheese Added: 80\n";
 
     }
 
@@ -47,13 +47,13 @@ public class Pizza {
         if(isVeg){
             price+=70;
             isTopping=true;
-            bill+="Extra Toppings Added: 70 \n";
+            bill+="Extra Toppings Added: 70\n";
 
         }
         else{
             price+=120;
             isTopping=true;
-            bill+="Extra Toppings Added: 120 \n";
+            bill+="Extra Toppings Added: 120\n";
         }
     }
 
@@ -64,7 +64,7 @@ public class Pizza {
         }
         price+=20;
         wasTakeaway=true;
-        bill+="Paperbag Added: 20 \n";
+        bill+="Paperbag Added: 20\n";
      }
 
     public String getBill(){
